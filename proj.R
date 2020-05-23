@@ -24,7 +24,7 @@ lines(hpc$DT,hpc$Global_active_power)
 dev.copy(png, file = 'plot2.png')
 dev.off()
 
-# (3)
+# plot 3
 with(hpc, plot(DT,Sub_metering_1 , xlab = '', ylab = 'Energy sub metering', type = 'n'))
 lines(hpc$DT,hpc$Sub_metering_1, col = 'black')
 lines(hpc$DT,hpc$Sub_metering_2, col = 'red')
@@ -35,7 +35,7 @@ legend('topright', legend = c('Sub_metering_1', 'Sub_metering_2', 'Sub_metering_
 dev.copy(png, file = 'plot3.png')
 dev.off()
 
-# (4)
+# plot 4
 
 par(mfrow = c(2,2))
 

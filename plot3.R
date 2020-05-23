@@ -1,4 +1,4 @@
-# (3)
+# plot 3
 with(hpc, plot(DT,Sub_metering_1 , xlab = '', ylab = 'Energy sub metering', type = 'n'))
 lines(hpc$DT,hpc$Sub_metering_1, col = 'black')
 lines(hpc$DT,hpc$Sub_metering_2, col = 'red')
