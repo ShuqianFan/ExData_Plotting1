@@ -1,4 +1,5 @@
 # plot 4
+# it's the forth part of a whole R file 'proj.R', reading file and library packages are same with plot1.R
 
 par(mfrow = c(2,2))
 

@@ -1,4 +1,6 @@
 # plot 3
+# it's the third part of a whole R file 'proj.R', reading file and library packages are same with plot1.R
+
 with(hpc, plot(DT,Sub_metering_1 , xlab = '', ylab = 'Energy sub metering', type = 'n'))
 lines(hpc$DT,hpc$Sub_metering_1, col = 'black')
 lines(hpc$DT,hpc$Sub_metering_2, col = 'red')

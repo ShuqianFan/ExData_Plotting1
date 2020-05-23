@@ -1,4 +1,6 @@
 # plot 2
+# it's the second part of a whole R file 'proj.R', reading file and library packages are same with plot1.R
+
 table(hpc$Date)
 
 # reset format of date and time
